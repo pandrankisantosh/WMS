@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WMS</string>
+    <string name="nitc_waste_management_system_is_a_waste_management_application_here_you_will_able_to_raise_complaints_about_any_garbage_problem_in_out_universities_based_on_your_location">NITC Waste Management System is a waste management application . Here you will able to raise complaints about any garbage problem in out universities based on your location.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="don_t_hava_an_account">Don\'t hava an account?</string>
+</resources>

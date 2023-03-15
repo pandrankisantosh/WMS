@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img3"
+    tools:context=".adminloginpageofwms" >
+
+    <ImageView
+        android:id="@+id/userlogin_logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/userloginlogo"
+        />
+
+
+
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_login_desc"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="20dp"
+        android:background="#30ffffff"
+        android:hint="Email"
+        android:padding="20dp"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/login_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_email"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:layout_marginTop="15dp"
+        android:drawablePadding="20dp"
+        android:background="#30ffffff"
+        android:hint="Password"
+        android:padding="20dp"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_login_now"
+        android:layout_below="@id/login_pass"
+        android:text="LOGIN"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#3DDC84"/>
+
+    <TextView
+        android:id="@+id/user_login_desc"
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/userlogin_logo"
+        android:layout_height="wrap_content"
+        android:text="ADMIN LOGIN"
+        />
+    <Button
+        android:id="@+id/backbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_arrow_back_24"     />
+
+
+</RelativeLayout>
